@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE81B0C1153907B10059F4D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE81B0C0153907B10059F4D2 /* UIKit.framework */; };
+		BE81B0C3153907B10059F4D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE81B0C2153907B10059F4D2 /* Foundation.framework */; };
+		BE81B0C5153907B10059F4D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE81B0C4153907B10059F4D2 /* CoreGraphics.framework */; };
+		BE81B0CB153907B10059F4D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE81B0C9153907B10059F4D2 /* InfoPlist.strings */; };
+		BE81B0CD153907B10059F4D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B0CC153907B10059F4D2 /* main.m */; };
+		BE81B0D1153907B10059F4D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B0D0153907B10059F4D2 /* AppDelegate.m */; };
+		BE81B0D4153907B10059F4D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B0D3153907B10059F4D2 /* ViewController.m */; };
+		BE81B0D7153907B10059F4D2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE81B0D5153907B10059F4D2 /* ViewController.xib */; };
+		BE81B0FE15390EF80059F4D2 /* ImageDivider.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B0FD15390EF80059F4D2 /* ImageDivider.m */; };
+		BE81B1001539158A0059F4D2 /* globe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE81B0FF1539158A0059F4D2 /* globe.jpg */; };
+		BE81B103153918F60059F4D2 /* ImageTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B102153918F60059F4D2 /* ImageTileView.m */; };
+		BE81B106153965CF0059F4D2 /* SliderPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B105153965CF0059F4D2 /* SliderPuzzleViewController.m */; };
+		BEBDE3431579B8D400570485 /* README in Resources */ = {isa = PBXBuildFile; fileRef = BEBDE3421579B8D400570485 /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE81B0BC153907B10059F4D2 /* SliderPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE81B0C0153907B10059F4D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE81B0C2153907B10059F4D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE81B0C4153907B10059F4D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE81B0C8153907B10059F4D2 /* SliderPuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderPuzzle-Info.plist"; sourceTree = "<group>"; };
+		BE81B0CA153907B10059F4D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE81B0CC153907B10059F4D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE81B0CE153907B10059F4D2 /* SliderPuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SliderPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		BE81B0CF153907B10059F4D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE81B0D0153907B10059F4D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE81B0D2153907B10059F4D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE81B0D3153907B10059F4D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE81B0D6153907B10059F4D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BE81B0DE153907B10059F4D2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE81B0FC15390EF80059F4D2 /* ImageDivider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDivider.h; sourceTree = "<group>"; };
+		BE81B0FD15390EF80059F4D2 /* ImageDivider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDivider.m; sourceTree = "<group>"; };
+		BE81B0FF1539158A0059F4D2 /* globe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = globe.jpg; sourceTree = "<group>"; };
+		BE81B101153918F60059F4D2 /* ImageTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTileView.h; sourceTree = "<group>"; };
+		BE81B102153918F60059F4D2 /* ImageTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTileView.m; sourceTree = "<group>"; };
+		BE81B104153965CF0059F4D2 /* SliderPuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderPuzzleViewController.h; sourceTree = "<group>"; };
+		BE81B105153965CF0059F4D2 /* SliderPuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderPuzzleViewController.m; sourceTree = "<group>"; };
+		BE8F0FEA153BF68500C9432B /* SliderPuzzleStateDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderPuzzleStateDelegate.h; sourceTree = "<group>"; };
+		BEBDE3421579B8D400570485 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE81B0B9153907B10059F4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE81B0C1153907B10059F4D2 /* UIKit.framework in Frameworks */,
+				BE81B0C3153907B10059F4D2 /* Foundation.framework in Frameworks */,
+				BE81B0C5153907B10059F4D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE81B0B1153907B10059F4D2 = {
+			isa = PBXGroup;
+			children = (
+				BEBDE3421579B8D400570485 /* README */,
+				BE81B0C6153907B10059F4D2 /* SliderPuzzle */,
+				BE81B0BF153907B10059F4D2 /* Frameworks */,
+				BE81B0BD153907B10059F4D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE81B0BD153907B10059F4D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE81B0BC153907B10059F4D2 /* SliderPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE81B0BF153907B10059F4D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE81B0C0153907B10059F4D2 /* UIKit.framework */,
+				BE81B0C2153907B10059F4D2 /* Foundation.framework */,
+				BE81B0C4153907B10059F4D2 /* CoreGraphics.framework */,
+				BE81B0DE153907B10059F4D2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE81B0C6153907B10059F4D2 /* SliderPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				BE81B0CF153907B10059F4D2 /* AppDelegate.h */,
+				BE81B0D0153907B10059F4D2 /* AppDelegate.m */,
+				BE81B0FC15390EF80059F4D2 /* ImageDivider.h */,
+				BE81B0FD15390EF80059F4D2 /* ImageDivider.m */,
+				BE81B101153918F60059F4D2 /* ImageTileView.h */,
+				BE81B102153918F60059F4D2 /* ImageTileView.m */,
+				BE81B104153965CF0059F4D2 /* SliderPuzzleViewController.h */,
+				BE81B105153965CF0059F4D2 /* SliderPuzzleViewController.m */,
+				BE8F0FEA153BF68500C9432B /* SliderPuzzleStateDelegate.h */,
+				BE81B0D2153907B10059F4D2 /* ViewController.h */,
+				BE81B0D3153907B10059F4D2 /* ViewController.m */,
+				BE81B0D5153907B10059F4D2 /* ViewController.xib */,
+				BE81B0C7153907B10059F4D2 /* Supporting Files */,
+				BE81B0FF1539158A0059F4D2 /* globe.jpg */,
+			);
+			path = SliderPuzzle;
+			sourceTree = "<group>";
+		};
+		BE81B0C7153907B10059F4D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE81B0C8153907B10059F4D2 /* SliderPuzzle-Info.plist */,
+				BE81B0C9153907B10059F4D2 /* InfoPlist.strings */,
+				BE81B0CC153907B10059F4D2 /* main.m */,
+				BE81B0CE153907B10059F4D2 /* SliderPuzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE81B0BB153907B10059F4D2 /* SliderPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE81B0EF153907B20059F4D2 /* Build configuration list for PBXNativeTarget "SliderPuzzle" */;
+			buildPhases = (
+				BE81B0B8153907B10059F4D2 /* Sources */,
+				BE81B0B9153907B10059F4D2 /* Frameworks */,
+				BE81B0BA153907B10059F4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderPuzzle;
+			productName = SliderPuzzle;
+			productReference = BE81B0BC153907B10059F4D2 /* SliderPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE81B0B3153907B10059F4D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE81B0B6153907B10059F4D2 /* Build configuration list for PBXProject "SliderPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE81B0B1153907B10059F4D2;
+			productRefGroup = BE81B0BD153907B10059F4D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE81B0BB153907B10059F4D2 /* SliderPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE81B0BA153907B10059F4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE81B0CB153907B10059F4D2 /* InfoPlist.strings in Resources */,
+				BE81B0D7153907B10059F4D2 /* ViewController.xib in Resources */,
+				BE81B1001539158A0059F4D2 /* globe.jpg in Resources */,
+				BEBDE3431579B8D400570485 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE81B0B8153907B10059F4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE81B0CD153907B10059F4D2 /* main.m in Sources */,
+				BE81B0D1153907B10059F4D2 /* AppDelegate.m in Sources */,
+				BE81B0D4153907B10059F4D2 /* ViewController.m in Sources */,
+				BE81B0FE15390EF80059F4D2 /* ImageDivider.m in Sources */,
+				BE81B103153918F60059F4D2 /* ImageTileView.m in Sources */,
+				BE81B106153965CF0059F4D2 /* SliderPuzzleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE81B0C9153907B10059F4D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE81B0CA153907B10059F4D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE81B0D5153907B10059F4D2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE81B0D6153907B10059F4D2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE81B0ED153907B20059F4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE81B0EE153907B20059F4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE81B0F0153907B20059F4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderPuzzle/SliderPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "SliderPuzzle/SliderPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE81B0F1153907B20059F4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderPuzzle/SliderPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "SliderPuzzle/SliderPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE81B0B6153907B10059F4D2 /* Build configuration list for PBXProject "SliderPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE81B0ED153907B20059F4D2 /* Debug */,
+				BE81B0EE153907B20059F4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE81B0EF153907B20059F4D2 /* Build configuration list for PBXNativeTarget "SliderPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE81B0F0153907B20059F4D2 /* Debug */,
+				BE81B0F1153907B20059F4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE81B0B3153907B10059F4D2 /* Project object */;
+}

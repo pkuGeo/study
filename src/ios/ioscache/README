@@ -1,0 +1,20 @@
+common library used for memory cache and sqlite cache
+
+still working on:
+
+current version:
+v0.1: 2012-06-02
+    add the project to svn
+Support: 
+    key object conforms <NSCoding> and <NSObject> in which the selector isEqual: will be used;
+    value object conforms <NSCoding>
+Basic Algorithms:
+    RLU when tick the obj in memory
+    All objects wiil be stored in sqlite
+    When recieving memory warning, all objects cached in memory will be released
+
+Known issues:
+
+
+
+History:
